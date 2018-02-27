@@ -1,19 +1,31 @@
-<<<<<<< HEAD
+
                            
 .headerBg {                                            
 	    background-color: #6559c7;
 	    width: 100%;
+	    height:auto;
+	    padding-top: 10px;
+	    padding-left:10px;
+	    padding-bottom: 20px;
+	    padding-right: 0px;
 			}
+
 
 .logoSize {
 	    width:30px;
 	    height:30px;
-    		}
+	  
 
-.navText{
-	    color:white;
-	    font-size: 20px;
+    		}
+  .navText{
+  	font-size: 18px;
+  }
+
+.navText:hover{
+	    color:blue;
+	   font-style: bold;
 	    font-style: italic;
+	    text-transform:uppercase;
     		}  
 
     		          /*For company name*/
@@ -30,7 +42,13 @@
 .galleryImage{
 	    height:250px ;
 	    width:350px;
+	    margin-bottom: 10px;
 			}
+.galleryImage:hover{
+
+	border: 3px solid blue;
+
+}
 
 .about{
 	    text-align: center;
@@ -73,7 +91,6 @@
 .aboutBg{
 	background-color: #efe8b0;
             }            
-=======
 .homeBackground {
 	background-image:url('../images/edumateBackground.jpg');
 	background-repeat: no-repeat;
@@ -81,4 +98,9 @@
 .anu{
 	 text-align: center;
 }
->>>>>>> b4595e8df209af0f7fdc463272ddb8ae07112906
+.map-alignment{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.
